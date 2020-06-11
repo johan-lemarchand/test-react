@@ -20,12 +20,14 @@ class Home extends Component {
 
 	render() {
 		return (
-			<div>
+			<div className='container-fluid '>
 				<div>
 					<Nav movie={this.state.movies} />
 				</div>
-				<div className={'box2'}>
+				<div className='box2'>
+
 					<CardList movie={this.state.movies}/>
+
 				</div>
 			</div>
 		);

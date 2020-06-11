@@ -1,3 +1,4 @@
+/*
 import React, {Component} from 'react';
 import {movies$} from "../../Movies";
 
@@ -32,9 +33,9 @@ class DeleteButton extends React.Component {
 	}
 
 	render() {
-
-		<button name="removeTask" onClick={event=>this.handleClickIndex(index,event)}>Supprimer</button>
-
+		return (
+		 <button name="removeTask" onClick={event=>this.handleClickIndex(index,event)}>Supprimer</button>
+		);
 	}
 }
-export default DeleteButton;
+export default DeleteButton;*/

@@ -18,7 +18,7 @@ export default class CardList extends Component {
 							<h6 className="card-subtitle mb-2 text-muted">{`${m.category}`}</h6>
 							<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eius libero maxime quas recusandae. Alias aperiam blanditiis consectetur consequatur distinctio ducimus explicabo impedit incidunt itaque libero magnam, minus nemo nostrum perspiciatis quibusdam recusandae rem vero voluptatum! Accusantium ad architecto culpa, doloremque esse eveniet optio porro quam quis suscipit temporibus voluptatum.</p>
 							<div className="card-bottom">
-
+								<button type="button" className="btn btn-danger">Supprimer</button>
 								<LikeButton />
 
 							</div>
